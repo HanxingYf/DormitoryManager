@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ROOT">
+    <output-path>$PROJECT_DIR$/a</output-path>
+    <root id="archive" name="ROOT.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DormitoryManager" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="DormitoryManager/web/Web" />
+      <element id="javaee-facet-resources" facet="DormitoryManager/web/Web2" />
+      <element id="javaee-facet-resources" facet="DormitoryManager/web/Web3" />
+      <element id="artifact" artifact-name="DormitoryManager:war exploded" />
+    </root>
+  </artifact>
+</component>
